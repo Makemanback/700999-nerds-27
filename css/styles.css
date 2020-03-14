@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Roboto", "Arial", sans-serif;
+    line-height: 1;
+    width: 1440px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Стили хедера */
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 140px;
+  padding-right: 140px;
+
+  background-color: #eeeeee;
+}
+.header_logo {
+  margin-right: 202px;
+  padding-top: 49px;
+}
+.navigation_list {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 56px;
+}
+.navigation_list li {
+  list-style: none;
+}
+.navigation_list a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+  margin-right: 46px;
+}
+.navigation_list li:nth-of-type(4) {
+  margin-right: 245px;
+}
