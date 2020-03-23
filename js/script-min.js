@@ -1,0 +1,2 @@
+let button=document.querySelector(".contacts_button");let modal=document.querySelector(".container_popup");let closeModal=document.querySelector(".popup_close");let slider=document.querySelector(".slider_wrapper");slider
+modal.classList.add("not_visible");button.addEventListener("click",function(evt){evt.preventDefault();modal.classList.remove("not_visible")});closeModal.addEventListener("click",function(evt){evt.preventDefault();modal.classList.add("not_visible")})
